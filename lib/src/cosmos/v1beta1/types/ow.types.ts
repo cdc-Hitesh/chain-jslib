@@ -49,5 +49,5 @@ export const owTxRaw = () =>
     owStrictObject().exactShape({
         bodyBytes: owBytes(),
         authInfoBytes: owBytes(),
-        signatures: ow.array.ofType(owBytes()) ,
+        signatures: ow.array.ofType(owBytes()),
     });
