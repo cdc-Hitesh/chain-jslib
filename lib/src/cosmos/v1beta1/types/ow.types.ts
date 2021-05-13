@@ -50,4 +50,4 @@ export const owTxRaw = () =>
         bodyBytes: owBytes(),
         authInfoBytes: owBytes(),
         signatures: ow.array.ofType(owBytes()),
-    });
+    }); 
